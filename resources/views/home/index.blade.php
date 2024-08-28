@@ -2,6 +2,7 @@
 <html lang="en">
    <head>
       @include('home.css')
+      @include('home.custom_css')
    </head>
    <!-- body -->
    <body class="main-layout">

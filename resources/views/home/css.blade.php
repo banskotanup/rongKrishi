@@ -13,7 +13,6 @@
 <!-- bootstrap css -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- style css -->
-@include('home.custom_css')
 <link rel="stylesheet" href="css/style.css">
 <!-- Responsive-->
 <link rel="stylesheet" href="css/responsive.css">

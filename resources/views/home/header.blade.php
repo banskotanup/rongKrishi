@@ -1,8 +1,8 @@
 <div class="full_bg">
     <!-- header -->
     <header class="header-area" >
-       <div class="container-fluid" id="navbar">
-          <div class="row d_flex" style="padding: 10px;">
+       <div class="container-fluid">
+          <div class="row d_flex" id="navbar">
              <div class=" col-md-2 col-sm-3">
                 <div class="logo">
                    <a href="index.html">Rong<span>Krishi</span></a>
@@ -35,12 +35,12 @@
                      @if (Route::has('login'))
                             @auth
                             <div>
-                              <div class="dropdown bottom-right open">
+                              <div class="dropdown bottom-right open" style="margin-top: 30px;">
                                 <a href="#dropDown" aria-expanded="false" data-toggle="collapse">
                                     <img
                                       src="/images/avatar-7.jpg"
                                       class="rounded-circle"
-                                      style="height: 30px; width:30px; boder-radius:60%; margin-right:10px; margin-top:1px;"
+                                      style="height: 30px; width:30px; boder-radius:60%;"
                                       alt="Black and White Portrait of a Man"
                                       loading="lazy"
                                     />
@@ -61,8 +61,8 @@
                               </div>
                             </div>                                
                             @else
-                            <div class="logo">
-                               <li style="margin-right:10px; margin-top:30px;"><a href="{{route('login')}}">Lo<span>GIN</span></a></li>
+                            <div class="logo" style="margin-right:10px;">
+                               <li style=""><a href="{{route('login')}}">Lo<span>GIN</span></a></li>
                             </div>
                             @endauth
                         @endif

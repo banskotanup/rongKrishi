@@ -1,14 +1,11 @@
 <style type="text/css">
     #navbar {
         overflow: hidden;
-        margin-top: 1px;
+        margin-top: 10px;
+        height: 100px;
     }
 
     #navbar a {
-        float: left;
-        display: block;
-        text-align: center;
-        padding: 14px;
         text-decoration: none;
     }
 
@@ -16,8 +13,17 @@
         position: fixed;
         top: 0;
         background-color: azure;
+
         color: black;
         width: 100%;
     }
+
+    .dropdown {
+        position: fixed;
+        top: 0;
+        right: 30px;
+        z-index:999;
+    }
+
 
 </style>
