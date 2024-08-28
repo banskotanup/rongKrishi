@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use App\Models\User;
+use App\Models\Product;
 
 class AdminController extends Controller
 {
@@ -34,5 +35,10 @@ class AdminController extends Controller
         $request->session()->flush();
  
         return redirect('/');
+    }
+    public function products()
+    {
+        $products = Product::all();
+        return view('admin.products',compact('products'));
     }
 }
