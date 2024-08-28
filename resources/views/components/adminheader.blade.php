@@ -346,8 +346,8 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="{{URL::to('logout')}}"> Logout </a></li>
-                <li class="nav-item"> <a class="nav-link" href="/admin/pages/samples/register.html"> Profile </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{url('log_out')}}"> Logout </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/user/profile"> Profile </a></li>
               </ul>
             </div>
           </li>

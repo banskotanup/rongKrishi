@@ -4,8 +4,8 @@
              <div id="banner1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
                               <ol class="carousel-indicators">
                                  <li data-target="#banner1" data-slide-to="0" class="active"></li>
-                                 <li data-target="#banner1" data-slide-to="1"></li>
-                                 <li data-target="#banner1" data-slide-to="2"></li>
+                                 <li data-target="#banner2" data-slide-to="1"></li>
+                                 <li data-target="#banner3" data-slide-to="2"></li>
                               </ol>
                               <div class="carousel-inner" role="listbox">
                                  <div class="carousel-item active">
@@ -22,7 +22,7 @@
                                  <div class="carousel-item">
                                     <picture>
                                      
-                                       <img srcset="images/banner.jpg" alt="responsive image" class="d-block img-fluid">
+                                       <img srcset="images/banner1.jpg" alt="responsive image" class="d-block img-fluid">
                                     </picture>
                                     <div class="carousel-caption relative">
                                        
@@ -31,10 +31,8 @@
                                  <!-- /.carousel-item -->
                                  <div class="carousel-item">
                                     <picture>
-                                       <source srcset="images/banner.jpg" >
-                                       <source srcset="images/banner.jpg" >
-                                       <source srcset="images/banner.jpg" >
-                                       <img srcset="images/banner.jpg" alt="responsive image" class="d-block img-fluid">
+                                       <source srcset="images/banner3.jpg" >
+                                       <img srcset="images/banner3.jpg" alt="responsive image" class="d-block img-fluid">
                                     </picture>
                                     <div class="carousel-caption relative">
                                        
