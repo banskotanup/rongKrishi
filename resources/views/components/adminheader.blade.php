@@ -297,20 +297,20 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="{{URL::to('/home')}}">
+            <a class="nav-link" href="{{url('home')}}">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="/admin/#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Our Products</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/admin/pages/ui-features/buttons.html">View All</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{url('adminProducts')}}">View All</a></li>
               </ul>
             </div>
           </li>
@@ -346,8 +346,8 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="{{URL::to('logout')}}"> Logout </a></li>
-                <li class="nav-item"> <a class="nav-link" href="/admin/pages/samples/register.html"> Profile </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{url('log_out')}}"> Logout </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/user/profile"> Profile </a></li>
               </ul>
             </div>
           </li>

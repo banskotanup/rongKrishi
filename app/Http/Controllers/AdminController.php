@@ -35,4 +35,8 @@ class AdminController extends Controller
  
         return redirect('/');
     }
+    public function products()
+    {
+        return view('admin.products');
+    }
 }
