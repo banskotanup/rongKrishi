@@ -1,183 +1,233 @@
-# [Soft UI Dashboard](http://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-dashboard&text=Check%20Soft%20UI%20Dashboard%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/soft-ui-dashboard) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
+# CoreUI Free Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Bootstrap%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 
-![version](https://img.shields.io/badge/version-1.0.7-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard.svg)](https://github.com/creativetimofficial/soft-ui-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard.svg)](https://github.com/creativetimofficial/soft-ui-dashboard/issues?q=is%3Aissue+is%3Aclosed)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
+[![npm package][npm-coreui-badge]][npm-coreui]
+[![NPM downloads][npm-coreui-download]][npm-coreui]
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/450/original/opt_sd_free_thumbnail.jpg?1617715816)
+[npm-coreui]: https://www.npmjs.com/package/@coreui/coreui
+[npm-coreui-badge]: https://img.shields.io/npm/v/@coreui/coreui.png?style=flat-square
+[npm-coreui-download]: https://img.shields.io/npm/dm/@coreui/coreui.svg?style=flat-square
 
-Most complex and innovative Dashboard Made by [Creative Tim](https://creative-tim.com/). Check our latest Free Bootstrap 5 Dashboard.
+[![Bootstrap Admin Template](https://assets.coreui.io/products/coreui-free-bootstrap-admin-template-light-dark.webp)](https://coreui.io/product/free-bootstrap-admin-template/)
 
-Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Soft UI Dashboard is ready to help you create stunning websites and webapps.
+CoreUI Bootstrap Admin Panel Template is not another blend of 3rd parties free components and libraries. It's **the only Open Source Bootstrap Admin Dashboard Template built on the enterprise-grade hand-crafted [UI Components Library](https://github.com/coreui/coreui)** created and backed by professionals.
+**CoreUI Admin Template helps you build reliable web apps faster than before.** CoreUI offers 4 versions: [Angular](https://github.com/coreui/coreui-free-angular-admin-template), [Bootstrap](https://github.com/coreui/coreui-free-bootstrap-admin-template), [React.js](https://github.com/coreui/coreui-free-react-admin-template), and [Vue.js](https://github.com/coreui/coreui-free-vue-admin-template).
 
-We created many examples for pages like Sign In, Profile and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!
-
-**Fully Coded Elements**
-
-Soft UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes.
-
-You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
-This Free Bootstrap 5 Dashboard is coming with prebuilt design blocks, so the development process is seamless,
-switching from our pages to the real website is very easy to be done.
-
-View [all components here](https://www.creative-tim.com/learning-lab/bootstrap/alerts/soft-ui-dashboard?ref=readme-sud).
-
-**Documentation built by Developers**
-
-Each element is well presented in a very complex documentation.
-You can read more about the <a href="https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard" target="_blank">documentation here</a>.
-
-**Example Pages**
-
-If you want to get inspiration or just show something directly to your clients,
-you can jump start your development with our pre-built example pages. You will be able
-to quickly set up the basic structure for your web project.
-View <a href="https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html" target="_blank">example pages here</a>.
-
-**HELPFUL LINKS**
-
-- View <a href="https://github.com/creativetimofficial/soft-ui-dashboard" target="_blank">Github Repository</a>
-
-- Check <a href="https://www.creative-tim.com/faq" target="_blank">FAQ Page</a>
-
-#### Special thanks
-During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
-- [Bootstrap 5](https://www.getbootstrap.com)- Open source front end framework
-- [Popper.js](https://popper.js.org/) - Kickass library used to manage poppers
-- [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Soft UI Dashboard. You can use it to gain insights into your sources of traffic.
-
-Let us know your thoughts below. And good luck with development!
+Curious why I decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Bootstrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
 
 ## Table of Contents
 
-- [Soft UI Dashboard  ](#soft-ui-dashboard--)
-      - [Special thanks](#special-thanks)
-  - [Table of Contents](#table-of-contents)
-  - [Versions](#versions)
-  - [Demo](#demo)
-  - [Quick start](#quick-start)
-  - [Deploy](#deploy)
-  - [Terminal Commands](#terminal-commands)
-  - [Documentation](#documentation)
-    - [What's included](#whats-included)
-  - [Browser Support](#browser-support)
-  - [Resources](#resources)
-  - [Reporting Issues](#reporting-issues)
-  - [Technical Support or Questions](#technical-support-or-questions)
-  - [Licensing](#licensing)
-  - [Useful Links](#useful-links)
-        - [Social Media](#social-media)
+* [Frameworks](#frameworks)
+* [CoreUI PRO](#coreui-pro)
+* [CoreUI PRO Bootstrap Admin Templates](#coreui-pro-bootstrap-admin-templates)
+* [Installation](#installation)
+* [Usage](#usage)
+* [What's included](#whats-included)
+* [Documentation](#documentation)
+* [Components](#components)
+* [Contributing](#contributing)
+* [Versioning](#versioning)
+* [Creators](#creators)
+* [Community](#community)
+* [Support CoreUI Development](#support-coreui-development)
+* [Copyright and license](#copyright-and-license)
 
-## Versions
+## Frameworks
 
-[<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud)
+CoreUI is built on top of Bootstrap 5 and supports popular frameworks.
 
-| HTML |
-| --- |
-| [![Soft UI Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/450/thumb/opt_sd_free_thumbnail.jpg?1617715816)](http://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud)
+* [CoreUI Free Angular Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
+* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
+* [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
+* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
 
-## Demo
+## CoreUI PRO
 
-- [Profile page](http://demos.creative-tim.com/soft-ui-dashboard/pages/profile.html?ref=readme-sud)
-- [Sign in page](http://demos.creative-tim.com/soft-ui-dashboard/pages/sign-in.html?ref=readme-sud)
-- [Sign up page](https://demos.creative-tim.com/soft-ui-dashboard/pages/sign-up.html?ref=readme-sud)
+* 💪  [CoreUI PRO Angular Admin Template](https://coreui.io/product/angular-dashboard-template/)
+* 💪  [CoreUI PRO Bootstrap Admin Template](https://coreui.io/product/bootstrap-dashboard-template/)
+* 💪  [CoreUI PRO Next.js Admin Template](https://coreui.io/product/next-js-dashboard-template/)
+* 💪  [CoreUI PRO React Admin Template](https://coreui.io/product/react-dashboard-template/)
+* 💪  [CoreUI PRO Vue Admin Template](https://coreui.io/product/vue-dashboard-template/)
 
-[View More](https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud).
 
-## Quick start
+## CoreUI PRO Bootstrap Admin Templates
 
-Quick start options:
+| Default Theme | Light Theme |
+| --- | --- |
+| [![CoreUI PRO Bootstrap Admin Template](https://coreui.io/images/templates/coreui_pro_default_light_dark.webp)](https://coreui.io/product/bootstrap-dashboard-template/?theme=default) | [![CoreUI PRO Bootstrap Admin Template](https://coreui.io/images/templates/coreui_pro_light_light_dark.webp)](https://coreui.io/product/bootstrap-dashboard-template/?theme=light)|
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud).
+| Modern Theme | Bright Theme |
+| --- | --- |
+| [![CoreUI PRO Bootstrap Admin Template](https://coreui.io/images/templates/coreui_pro_default_v3_light_dark.webp)](https://coreui.io/product/bootstrap-dashboard-template/?theme=modern) | [![CoreUI PRO Bootstrap Admin Template](https://coreui.io/images/templates/coreui_pro_light_v3_light_dark.webp)](https://coreui.io/product/bootstrap-dashboard-template/?theme=bright)|
 
-## Terminal Commands
+## CoreUI Icons (522 Free icons) - Premium designed free icon set with marks in SVG, Webfont and raster formats.
 
-1. Download and Install NodeJs from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root / directory and run npm install to install our local dependencies.
+CoreUI Icons are beautifully crafted symbols for common actions and items. You can use them in your digital products for web or mobile app. Ready-to-use fonts and stylesheets that work with your favorite frameworks.
 
-## Deploy
+[![CoreUI Free Icons](https://coreui.io/images/icons_free_bg_set.png)](https://github.com/coreui/coreui-icons/)
 
-:rocket: You can deploy your own version of the template to Genezio with one click:
+[Download CoreUI Free Icons](https://github.com/coreui/coreui-icons/)
 
-[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/soft-ui-dashboard&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
+## Installation
+
+### Clone repo
+
+``` bash
+# clone the repo
+$ git clone https://github.com/coreui/coreui-free-bootstrap-admin-template.git my-project
+
+# go into app's directory
+$ cd my-project
+
+# install app's dependencies
+$ npm install
+```
+
+## Usage
+
+``` bash
+# serve with hot reload at localhost:3000.
+$ npm start
+
+# build for production with minification
+$ npm run build
+```
+
+## What's included
+
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+
+```
+free-bootstrap-admin-template/
+├── build/
+├── src/
+│   ├── assets/
+│   │   ├── brand/
+│   │   ├── favicon/
+│   │   ├── icons/
+│   │   ├── img/
+│   ├── js/
+│   ├── pug/
+│   │   ├── _layout/
+│   │   ├── _partial/
+│   │   ├── base/
+│   │   ├── buttons/
+│   │   ├── icons/
+│   │   ├── notifications/
+│   │   ├── ...
+│   │   ├── index.pug
+│   │   └── ...
+│   ├── scss/
+│   ├── vendors/
+│   └── views/
+│       ├── base/
+│       ├── buttons/
+│       ├── css/
+│       ├── icons/
+│       ├── notifications/
+│       ├── ...
+│       ├── index.html
+│       └── ...
+└── package.json
+```
 
 ## Documentation
-The documentation for the Soft UI Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard?ref=readme-sud).
 
-### What's included
+The documentation for the CoreUI Free Bootstrap Admin Template is hosted at our website [CoreUI](https://coreui.io/docs/templates/installation/)
 
-Within the download you'll find the following directories and files:
+## Components
 
-```
-soft-ui-dashboard
-    ├── assets
-    │   ├── css
-    │   ├── fonts
-    │   ├── img
-    │   ├── js
-    │   │   ├── core
-    │   │   ├── plugins
-    │   │   └── soft-ui-dashboard.js
-    │   │   └── soft-ui-dashboard.js.map
-    │   │   └── soft-ui-dashboard.min.js
-    │   └── scss
-    │       ├── soft-ui-dashboard
-    │       └── soft-ui-dashboard.scss
-    ├── docs
-    │   ├── documentation.html
-    ├── pages
-    ├── CHANGELOG.md
-    ├── gulpfile.js
-    ├── package.json
-```
+CoreUI Bootstrap Admin Templates are built on top of CoreUI and CoreUI PRO UI components libraries, including all of these components.
 
-## Browser Support
+- [Bootstrap Accordion](https://coreui.io/bootstrap/docs/components/accordion/)
+- [Bootstrap Alert](https://coreui.io/bootstrap/docs/components/alert/)
+- [Bootstrap Avatar](https://coreui.io/bootstrap/docs/components/avatar/)
+- [Bootstrap Badge](https://coreui.io/bootstrap/docs/components/badge/)
+- [Bootstrap Breadcrumb](https://coreui.io/bootstrap/docs/components/breadcrumb/)
+- [Bootstrap Button](https://coreui.io/bootstrap/docs/components/button/)
+- [Bootstrap Button Group](https://coreui.io/bootstrap/docs/components/button-group/)
+- [Bootstrap Callout](https://coreui.io/bootstrap/docs/components/callout/)
+- [Bootstrap Card](https://coreui.io/bootstrap/docs/components/card/)
+- [Bootstrap Carousel](https://coreui.io/bootstrap/docs/components/carousel/)
+- [Bootstrap Checkbox](https://coreui.io/bootstrap/docs/forms/checkbox/)
+- [Bootstrap Close Button](https://coreui.io/bootstrap/docs/components/close-button/)
+- [Bootstrap Calendar](https://coreui.io/bootstrap/docs/components/calendar/) **PRO**
+- [Bootstrap Collapse](https://coreui.io/bootstrap/docs/components/collapse/)
+- [Bootstrap Date Picker](https://coreui.io/bootstrap/docs/forms/date-picker/) **PRO**
+- [Bootstrap Date Range Picker](https://coreui.io/bootstrap/docs/forms/date-range-picker/) **PRO**
+- [Bootstrap Dropdown](https://coreui.io/bootstrap/docs/components/dropdown/)
+- [Bootstrap Floating Labels](https://coreui.io/bootstrap/docs/forms/floating-labels/)
+- [Bootstrap Footer](https://coreui.io/bootstrap/docs/components/footer/)
+- [Bootstrap Header](https://coreui.io/bootstrap/docs/components/header/)
+- [Bootstrap Image](https://coreui.io/bootstrap/docs/components/image/)
+- [Bootstrap Input](https://coreui.io/bootstrap/docs/forms/input/)
+- [Bootstrap Input Group](https://coreui.io/bootstrap/docs/forms/input-group/)
+- [Bootstrap List Group](https://coreui.io/bootstrap/docs/components/list-group/)
+- [Bootstrap Loading Button](https://coreui.io/bootstrap/docs/components/loading-button/) **PRO**
+- [Bootstrap Modal](https://coreui.io/bootstrap/docs/components/modal/)
+- [Bootstrap Multi Select](https://coreui.io/bootstrap/docs/forms/multi-select/) **PRO**
+- [Bootstrap Navs & Tabs](https://coreui.io/bootstrap/docs/components/navs-tabs/)
+- [Bootstrap Navbar](https://coreui.io/bootstrap/docs/components/navbar/)
+- [Bootstrap Offcanvas](https://coreui.io/bootstrap/docs/components/offcanvas/)
+- [Bootstrap Pagination](https://coreui.io/bootstrap/docs/components/pagination/)
+- [Bootstrap Placeholder](https://coreui.io/bootstrap/docs/components/placeholder/)
+- [Bootstrap Popover](https://coreui.io/bootstrap/docs/components/popover/)
+- [Bootstrap Progress](https://coreui.io/bootstrap/docs/components/progress/)
+- [Bootstrap Radio](https://coreui.io/bootstrap/docs/forms/radio/)
+- [Bootstrap Range](https://coreui.io/bootstrap/docs/forms/range/)
+- [Bootstrap Rating](https://coreui.io/bootstrap/docs/forms/rating/) **PRO**
+- [Bootstrap Select](https://coreui.io/bootstrap/docs/forms/select/)
+- [Bootstrap Sidebar](https://coreui.io/bootstrap/docs/components/sidebar/)
+- [Bootstrap Spinner](https://coreui.io/bootstrap/docs/components/spinner/)
+- [Bootstrap Switch](https://coreui.io/bootstrap/docs/forms/switch/)
+- [Bootstrap Table](https://coreui.io/bootstrap/docs/components/table/)
+- [Bootstrap Textarea](https://coreui.io/bootstrap/docs/forms/textarea/)
+- [Bootstrap Time Picker](https://coreui.io/bootstrap/docs/forms/time-picker/) **PRO**
+- [Bootstrap Toast](https://coreui.io/bootstrap/docs/components/toast/)
+- [Bootstrap Tooltip](https://coreui.io/bootstrap/docs/components/tooltip/)
 
-At present, we officially aim to support the last two versions of the following browsers:
+## Contributing
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/main/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-## Resources
-- [Live Preview](https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud)
-- [Download Page](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard?ref=readme-sud)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-sud)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-sud)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard/issues)
-- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
+Editor preferences are available in the [editor config](https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/main/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
-## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Soft UI Dashboard. Here are some advices for our users that want to report an issue:
+## Versioning
 
-1. Make sure that you are using the latest version of the Soft UI Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+For transparency into our release cycle and in striving to maintain backward compatibility,CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-## Technical Support or Questions
+See [the Releases section of our project](https://github.com/coreui/coreui-free-bootstrap-admin-template/releases) for changelogs for each release version.
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-sud) instead of opening an issue.
+## Creators
 
-## Licensing
+**Łukasz Holeczek**
 
-- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-sud)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sud)
+* <https://twitter.com/lukaszholeczek>
+* <https://github.com/mrholek>
 
-## Useful Links
+**Andrzej Kopański**
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-sud) from Creative Tim
+* <https://github.com/xidedix>
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+**CoreUI Team**
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-sud) from Creative Tim
+* <https://twitter.com/core_ui>
+* <https://github.com/coreui>
+* <https://github.com/orgs/coreui/people>
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-sud) (earn money)
+## Community
 
-##### Social Media
+Get updates on CoreUI's development and chat with the project maintainers and community members.
 
-Twitter: <https://twitter.com/CreativeTim>
+- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
+- Read and subscribe to [CoreUI Blog](https://coreui.io/blog/).
 
-Facebook: <https://www.facebook.com/CreativeTim>
+## Support CoreUI Development
 
-Dribbble: <https://dribbble.com/creativetim>
+CoreUI is an MIT-licensed open source project and is completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by buying the [CoreUI PRO](https://coreui.io/pricing/?framework=bootstrap&src=github-coreui-free-bootstrap-admin-template) or by becoming a sponsor via [Open Collective](https://opencollective.com/coreui/).
 
-TikTok: <https://tiktok.com/@creative.tim>
 
-Instagram: <https://instagram.com/creativetimofficial>
+## Copyright and license
+
+copyright 2024 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/main/LICENSE).

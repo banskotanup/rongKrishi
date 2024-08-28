@@ -15,5 +15,6 @@
       @include('home.news')
       @include('home.contact')
       @include('home.footer')
+      @include('home.js')
    </body>
 </html>

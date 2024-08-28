@@ -1,8 +1,8 @@
 <div class="full_bg">
     <!-- header -->
-    <header class="header-area">
-       <div class="container-fluid">
-          <div class="row d_flex">
+    <header class="header-area" >
+       <div class="container-fluid" id="navbar">
+          <div class="row d_flex" style="padding: 10px;">
              <div class=" col-md-2 col-sm-3">
                 <div class="logo">
                    <a href="index.html">Rong<span>Krishi</span></a>
@@ -62,7 +62,7 @@
                             </div>                                
                             @else
                             <div class="logo">
-                               <li><a href="{{route('login')}}">Lo<span>GIN</span></a></li>
+                               <li style="margin-right:10px; margin-top:30px;"><a href="{{route('login')}}">Lo<span>GIN</span></a></li>
                             </div>
                             @endauth
                         @endif
