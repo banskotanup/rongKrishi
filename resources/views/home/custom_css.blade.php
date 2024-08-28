@@ -25,5 +25,9 @@
         z-index:999;
     }
 
+    .carousel-control-prev{
+        
+    }
+
 
 </style>

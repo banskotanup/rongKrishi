@@ -42,11 +42,11 @@
                               </div>
                               <!-- /.carousel-inner -->
                               <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
-                              <i class="fa fa-angle-left" aria-hidden="true"></i>
+                              <i class="carousel-control-prev-icon" aria-hidden="true"></i>
                               <span class="sr-only">Previous</span>
                               </a>
                               <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
-                              <i class="fa fa-angle-right" aria-hidden="true"></i>
+                              <i class="carousel-control-next-icon" aria-hidden="true"></i>
                               <span class="sr-only">Next</span>
                               </a>
                            </div>
