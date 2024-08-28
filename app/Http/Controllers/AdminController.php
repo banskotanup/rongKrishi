@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use App\Models\User;
+use App\Models\Product;
 
 class AdminController extends Controller
 {
@@ -37,6 +38,7 @@ class AdminController extends Controller
     }
     public function products()
     {
-        return view('admin.products');
+        $products = Product::all();
+        return view('admin.products',compact('products'));
     }
 }
