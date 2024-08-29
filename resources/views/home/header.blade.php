@@ -1,76 +1,49 @@
 <div class="full_bg">
     <!-- header -->
-    <header class="header-area" >
-       <div class="container-fluid">
-          <div class="row d_flex" id="navbar">
-             <div class=" col-md-2 col-sm-3">
-                <div class="logo">
-                   <a href="index.html">Rong<span>Krishi</span></a>
-                </div>
-             </div>
-             <div class="col-md-8 col-sm-9">
-                <div class="navbar-area">
-                   <nav class="site-navbar">
-                      <ul>
-                         <li><a class="active" href="index.html">Home</a></li>
-                         <li><a href="about.html">About</a></li>
-                         <li><a href="service.html">Service</a></li>
-                          <li><a href="Javascript:void(0)">Projects</a></li>
-                           <li><a href="testimonail.html">Testimonail</a></li>
-                         <li><a href="blog.html">Blog</a></li>
-                         <li><a href="contact.html">Contact</a></li>
-                         <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i>
-                         </a>
-                      </li>
-                      </ul>
-                      <button class="nav-toggler">
-                      <span></span>
-                      </button>
-                   </nav>
-                </div>
-             </div>
-             <div class="col-md-2 padd_0 d_none">
-                <ul class="email text_align_right">
-                   {{-- Login Starts --}}
-                     @if (Route::has('login'))
-                            @auth
-                            <div>
-                              <div class="dropdown bottom-right open" style="margin-top: 30px;">
-                                <a href="#dropDown" aria-expanded="false" data-toggle="collapse">
-                                    <img
-                                      src="/images/avatar-7.jpg"
-                                      class="rounded-circle"
-                                      style="height: 30px; width:30px; boder-radius:60%;"
-                                      alt="Black and White Portrait of a Man"
-                                      loading="lazy"
-                                    />
-                                  </a>
-                                  <ul
-                                    id="dropDown"
-                                    class="dropdown-menu dropdown-menu-end"
-                                    aria-labelledby="navbarDropdownMenuAvatar"
-                                     style="background-color: #1d2129;left:auto!important; right:0!important;"
-                                  >
-                                    <li>
-                                      <a class="dropdown-item" href="/user/profile">My profile</a>
-                                    </li>
-                                    <li>
-                                      <a class="dropdown-item" href="{{url('log_out')}}">Logout</a>
-                                    </li>
-                                  </ul>
-                              </div>
-                            </div>                                
-                            @else
-                            <div class="logo" style="margin-right:10px;">
-                               <li style=""><a href="{{route('login')}}">Lo<span>GIN</span></a></li>
-                            </div>
-                            @endauth
-                        @endif
-                     {{-- login ends --}}
-                   </li>
-                </ul>
-             </div>
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="logo" class="img-fluid" style="height: 50px; transform: scale(1.2);">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <i class="fas fa-stream navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services">Products</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Testinomial</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#blog">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  @if (Route::has('login'))
+                    @auth
+                    <li class="nav-item">
+                      <a class="nav-link" href="{{url('log_out')}}">Logout</a>
+                    </li>                            
+                  @else
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{route('login')}}">Login</a>
+                  </li>  
+                  @endauth
+                  @endif
+              </ul>
+            </div>
           </div>
-       </div>
-    </header>
+        </nav>
+  </header>
     <!-- end header inner -->
