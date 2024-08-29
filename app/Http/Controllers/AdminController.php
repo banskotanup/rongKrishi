@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use App\Models\User;
 use App\Models\Product;
+use App\Models\Category;
 
 class AdminController extends Controller
 {
@@ -54,6 +55,16 @@ class AdminController extends Controller
         $data->file('file')->move('uploads/products/', $product->picture);
         $product->save();
         return redirect()->back()->with('success','Congratulation! New Product Added Successfully.');
-
+    }
+    public function category_page()
+    {
+     return view('admin.category');
+    }
+    public function add_category(Request $request)
+    {
+        $data = new Category;
+        $data->cat_title = $request->category;
+        $data->save();
+        return redirect()->back()->with('message', 'Category Added Successfully');
     }
 }

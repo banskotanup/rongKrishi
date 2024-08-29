@@ -21,6 +21,20 @@
   <link rel="stylesheet" href="/admin/css/vertical-layout-light/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="/admin/images/favicon.png" />
+    <style type="text/css">
+      .div_center
+      {
+        text-align: center;
+        margin: auto;
+      }
+      .cat_label
+      {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px;
+        color: black;
+      }
+    </style>
 </head>
 <body>
   <div class="container-scroller">
@@ -310,10 +324,10 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="{{url('category_page')}}">Category</a></li>
                 <li class="nav-item"> <a class="nav-link" href="{{url('adminProducts')}}">View All</a></li>
               </ul>
             </div>
-          </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="/admin/#form-elements" aria-expanded="false" aria-controls="form-elements">
               <i class="icon-columns menu-icon"></i>
