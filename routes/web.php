@@ -23,3 +23,4 @@ Route::middleware([
 route::get('/home',[AdminController::class, 'index']);
 route::get('/log_out',[AdminController::class, 'log_out']);
 route::get('/adminProducts',[AdminController::class, 'products']);
+route::POST('/AddNewProduct',[AdminController::class, 'AddNewProduct']);

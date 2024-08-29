@@ -41,4 +41,19 @@ class AdminController extends Controller
         $products = Product::all();
         return view('admin.products',compact('products'));
     }
+    public function AddNewProduct(Request $data)
+    {
+        $product = new Product();
+        $product->title=$data->input('title');
+        $product->price=$data->input('price');
+        $product->type=$data->input('type');
+        $product->quantity=$data->input('quantity');
+        $product->category=$data->input('category');
+        $product->description=$data->input('description');
+        $product->picture=$data->file('file')->getClientOriginalName();
+        $data->file('file')->move('uploads/products/', $product->picture);
+        $product->save();
+        return redirect()->back()->with('success','Congratulation! New Product Added Successfully.');
+
+    }
 }
