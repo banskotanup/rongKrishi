@@ -1,75 +1,142 @@
-      <!--  footer -->
-      <footer>
-        <div class="footer">
-           <div class="container">
-              <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                          <div class="hedingh3  text_align_left">
-                             <h3>Newsletter</h3>
-                             <form id="colof" class="form_subscri">
-                                <input class="newsl" placeholder="Enter Email" type="text" name="Email">
-                                <button class="subsci_btn"><img src="images/new.png" alt="#"/></button>
-                             </form>
-                             
-                          </div>
-                       </div>
-                       <div class="col-lg-3 col-md-6">
-                          <div class="hedingh3 text_align_left">
-                             <h3> Explore</h3>
-                             <ul class="menu_footer">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="service.html">Service</a></li>
-                                <li><a href="Javascript:void(0)">Projects</a></li>
-                                <li><a href="testimonail.html">Testimonail</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                             </ul>
-                          </div>
-                       </div>
-                       <div class="col-lg-3 col-md-6">
-                          <div class="hedingh3 text_align_left">
-                             <h3>Recent Posts</h3>
-                             <ul class="recent">
-                                <li><img src="images/resent.jpg" alt="#"/>ea commodo consequat. Duis aute </li>
-                                <li><img src="images/resent.jpg" alt="#"/>ea commodo consequat. Duis aute </li>
-                             </ul>
-                          </div>
-                       </div>
-                        <div class="col-lg-3 col-md-6">
-                          <div class="hedingh3  flot_right text_align_left">
-                             <h3>ContacT</h3>
-                             <ul class="top_infomation">
-                                <li><i class="fa fa-phone" aria-hidden="true"></i>
-                                   +01 1234567892
-                                </li>
-                                <li><i class="fa fa-envelope" aria-hidden="true"></i>
-                                   <a href="Javascript:void(0)">demo@gmail.com</a>
-                                </li>
-                             </ul>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
-            
-           <div class="copyright">
-              <div class="container">
-                 <div class="row d_flex">
-                    <div class="col-md-8">
-                       <p>© 2022 All Rights Reserved. Design by <a href="https://html.design/"> Free html Templates</a></p>
-                    </div>
-                    <div class="col-md-4">
-                          <ul class="social_icon ">
-                             <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                             <li><a href="Javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                             <li><a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                          </ul>
-                    </div>
-                 </div>
-              </div>
+<!-- Footer -->
+   <footer
+           class="text-center text-lg-start text-white"
+           style="background-color: #1c2331"
+           >
+     <!-- Section: Social media -->
+     <section
+              class="d-flex justify-content-between p-4"
+              style="background-color: #6b7908"
+              >
+       <!-- Left -->
+       <div class="me-5">
+         <span>Get connected with us on social networks:</span>
+       </div>
+       <!-- Left -->
+ 
+       <!-- Right -->
+       <div>
+         <a href="https://www.facebook.com/" target="_blank" class="text-white me-4">
+           <i class="fab fa-facebook-f"></i>
+         </a>
+         <a href="https://x.com/?lang=en" target="_blank" class="text-white me-4">
+           <i class="fab fa-twitter"></i>
+         </a>
+         <a href="https://www.google.com/" target="_blank" class="text-white me-4">
+           <i class="fab fa-google"></i>
+         </a>
+         <a href="https://www.instagram.com/" target="_blank" class="text-white me-4">
+           <i class="fab fa-instagram"></i>
+         </a>
+         <a href="https://www.linkedin.com/" target="_blank" class="text-white me-4">
+           <i class="fab fa-linkedin"></i>
+         </a>
+         <a href="https://github.com/" target="_blank" class="text-white me-4">
+           <i class="fab fa-github"></i>
+         </a>
+       </div>
+       <!-- Right -->
+     </section>
+     <!-- Section: Social media -->
+ 
+     <!-- Section: Links  -->
+     <section class="">
+       <div class="container text-center text-md-start mt-5">
+         <!-- Grid row -->
+         <div class="row mt-3">
+           <!-- Grid column -->
+           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+             <!-- Content -->
+             <h6 class="text-uppercase fw-bold" style="color: white;">Rong Krishi Company Pvt. Ltd.</h6>
+             <hr
+                 class="mb-4 mt-0 d-inline-block mx-auto"
+                 style="width: 60px; background-color: #7c4dff; height: 2px"
+                 />
+             <p style="color: white;">
+               At RongKrishi, we are dedicated to driving innovation in the agricultural sector through cutting-edge manufacturing solutions. Our commitment to excellence ensures that farmers have access to high-quality, reliable equipment that enhances productivity and sustainability.
+             </p>
            </div>
-        </div>
-     </footer>
-     <!-- end footer -->
+           <!-- Grid column -->
+ 
+           <!-- Grid column -->
+           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+             <!-- Links -->
+             <h6 class="text-uppercase fw-bold" style="color: white;">Products</h6>
+             <hr
+                 class="mb-4 mt-0 d-inline-block mx-auto"
+                 style="width: 60px; background-color: #7c4dff; height: 2px"
+                 />
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Product 1</a>
+             </p>
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Product 2</a>
+             </p>
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Product 3</a>
+             </p>
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Product 4</a>
+             </p>
+           </div>
+           <!-- Grid column -->
+ 
+           <!-- Grid column -->
+           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+             <!-- Links -->
+             <h6 class="text-uppercase fw-bold" style="color: white;">Useful links</h6>
+             <hr
+                 class="mb-4 mt-0 d-inline-block mx-auto"
+                 style="width: 60px; background-color: #7c4dff; height: 2px"
+                 />
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Your Account</a>
+             </p>
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Become an Affiliate</a>
+             </p>
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Shipping Rates</a>
+             </p>
+             <p>
+               <a href="#!" class="text-white" style="color: white;">Help</a>
+             </p>
+           </div>
+           <!-- Grid column -->
+ 
+           <!-- Grid column -->
+           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+             <!-- Links -->
+             <h6 class="text-uppercase fw-bold" style="color: white;">Contact</h6>
+             <hr
+                 class="mb-4 mt-0 d-inline-block mx-auto"
+                 style="width: 60px; background-color: #7c4dff; height: 2px"
+                 />
+             <p style="color: white;"><i class="fas fa-home mr-3"></i >Birtamode-05, Jhapa, Nepal</p>
+             <p style="color: white;"><i class="fas fa-envelope mr-3"></i > info@example.com</p>
+             <p style="color: white;"><i class="fas fa-phone mr-3"></i > + 977 9876543210</p>
+           </div>
+           <!-- Grid column -->
+         </div>
+         <!-- Grid row -->
+       </div>
+     </section>
+     <!-- Section: Links  -->
+ 
+     <!-- Copyright -->
+     <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+       © 2024 Copyright:
+       <a class="text-white" href="#"
+          >NextGenIT</a
+         >
+     </div>
+     <!-- Copyright -->
+   </footer>
+   <!-- Footer -->
+
      <!-- Javascript files-->
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.bundle.min.js"></script>

@@ -38,53 +38,13 @@
                    </div>
                    <div class="row justify-content-center pt-5">
                        <div class="col-lg-6 mb-4 mb-lg-0">
-                           <div class="row">
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo1.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo2.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo3.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo4.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo5.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo6.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo7.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo8.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                               <div class="col-md-4 col-sm-6 mb-4">
-                                   <div class="single-logo-item">
-                                       <img src="images/client-img/logo9.webp" class="img-fluid">
-                                   </div>
-                               </div>
-                           </div>
+                          
+                              
+                                    <div class="willom">
+                                      <h1><em>"From farm to table, every vegetable tells a story of care and cultivation."</em></h1>
+                                    </div>
+                                
+                           
                        </div>
                        <div class="offset-lg-2 col-lg-4 col-md-10">
                            <div class="client-info">
@@ -106,15 +66,6 @@
                    </div>
                </div>
            </section>
-                           <div class="container-fluid">
-                              <div class="row">
-                                 <div class="col-md-12">
-                                    <div class="willom">
-                                      <h1><em>"From farm to table, every vegetable tells a story of care and cultivation."</em></h1>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
          </div>
       </div>
       <!-- end banner -->

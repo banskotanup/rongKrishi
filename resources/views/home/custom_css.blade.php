@@ -42,16 +42,16 @@
 :root {
     /* Background Color */
     --primary-color: #6b7908;
-    --secondary-color: #854fee;
+    --secondary-color: #6b7908;
     --bg-white: #fff;
     --bg-light: #faf8ff;
     --bg-black: #000;
     --bg-gray: #eee;
-    --gradient: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    --gradient: linear-gradient(to right, #b3c145 0%, #9fb111 100%), radial-gradient(circle at top left, #6b7908 , #abc008);
 
     /* Text Color */
     --primary-text: #6b7908;
-    --secondary-text: #854fee;
+    --secondary-text: #abc008;
     --text-white: #fff;
     --text-black: #000;
     --text-gray: #777;

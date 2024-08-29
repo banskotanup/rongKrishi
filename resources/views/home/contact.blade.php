@@ -23,8 +23,8 @@
                        </div>
                        <div class="col-md-12">
                           <div class="group_btn">
-                          <button class="send_btn">Send</button>
-                           <button class="send_btn">location</button>
+                          <button class="main-btn primary-btn">Send</button>
+                           <button class="main-btn secondary-btn ms-4">location</button>
                         </div>
                        </div>
                     </div>

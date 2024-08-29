@@ -19,7 +19,7 @@
                           <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
                        </div>
                     </div>
-                    <a class="read_more" href="services.html">Read More</a>
+                    <a class="main-btn primary-btn" href="services.html">Read More</a>
                  </div>
               </div>
               <div class="col-md-4">
@@ -31,7 +31,7 @@
                           <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
                        </div>
                     </div>
-                    <a class="read_more" href="services.html">Read More</a>
+                    <a class="main-btn primary-btn" href="services.html">Read More</a>
                  </div>
               </div>
               <div class="col-md-4">
@@ -43,7 +43,7 @@
                           <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
                        </div>
                     </div>
-                    <a class="read_more" href="services.html">Read More</a>
+                    <a class="main-btn primary-btn" href="services.html" >Read More</a>
                  </div>
               </div>
            </div>
