@@ -4,7 +4,7 @@
            <div class="row">
               <div class="col-md-12">
                  <div class="titlepage text_align_center">
-                    <h2>Whay choose us</h2>
+                    <h2>Why choose us</h2>
                  </div>
               </div>
            </div>

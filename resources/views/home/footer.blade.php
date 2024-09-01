@@ -114,7 +114,7 @@
                  />
              <p style="margin-left: -75px;"><a href="#!" class="text-white" style="color: white;"><i class="fas fa-home mr-3"></i> Birtamode-05, Jhapa, Nepal</a></p>
              <p style="margin-left: -75px;"><a href="#!" class="text-white" style="color: white;"><i class="fas fa-envelope mr-3"></i > info@example.com</a></p>
-             <p style="margin-left: -75px;"><a href="#!" class="text-white" style="color: white;"><i class="fas fa-phone mr-3"></i > + 977 9876543210/a></p>
+             <p style="margin-left: -75px;"><a href="#!" class="text-white" style="color: white;"><i class="fas fa-phone mr-3"></i > + 977 9876543210</a></p>
            </div>
            <!-- Grid column -->
          </div>

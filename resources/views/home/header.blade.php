@@ -13,22 +13,22 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav menu-navbar-nav">
                   <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      <a class="nav-link {{ Request::is('/') ? 'active' : ''}}" aria-current="page" href="{{url('/')}}">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
+                      <a class="nav-link {{ Request::is('about') ? 'active' : ''}}" href="{{url('about')}}">About</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#services">Products</a>
+                      <a class="nav-link {{ Request::is('product') ? 'active' : ''}}" href="{{url('product')}}">Products</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#portfolio">Testinomial</a>
+                      <a class="nav-link {{ Request::is('testimonial') ? 'active' : ''}}" href="{{url('testimonial')}}">Testimonial</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#blog">FAQ</a>
+                      <a class="nav-link {{ Request::is('faq') ? 'active' : ''}}" href="{{url('faq')}}">FAQ</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
+                      <a class="nav-link {{ Request::is('contact') ? 'active' : ''}}" href="{{url('contact')}}">Contact</a>
                   </li>
                   @if (Route::has('login'))
                     @auth
