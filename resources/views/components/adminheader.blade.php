@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -33,6 +34,23 @@
         font-weight: bold;
         padding: 30px;
         color: black;
+      }
+      .center
+      {
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        margin-top: 50px;
+        border: 1px solid black;
+      }
+      th
+      {
+        background-color: skyblue;
+        padding: 10px;
+      }
+      tr{
+        border: 1px solid black;
+        padding: 10px;
       }
     </style>
 </head>
