@@ -11,13 +11,13 @@
             <h2 class="accordion-header">
               <!--   data-bs-target="#coll1",  controls="coll1", id="coll1", aria-expanded="true"      -->
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#coll1" aria-expanded="true" aria-controls="coll1">
-                <h5> What is Semantic HTML and how does it work?</h5>
+                <h5> What does RongKrishi specialize in?</h5>
               </button>
             </h2>
             <!-- show : by default Always open -->
             <div id="coll1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Semantic HTML refers to a method of coding where HTML markup is used to emphasise the meaning or semantics of the existing content.
+                RongKrishi specializes in manufacturing high-quality agricultural equipment designed to enhance productivity, efficiency, and sustainability for farmers. Our innovative solutions help streamline farming operations and ensure long-term reliability.
               </div>
             </div>
           </div>
@@ -27,18 +27,12 @@
             <h2 class="accordion-header">
               <!--       collapsed,   aria-expanded="false"   -->
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll2" aria-expanded="false" aria-controls="coll2">
-                <h5> What do you know about the Box Sizing property?</h5>
+                <h5> What type of agricultural equipment does RongKrishi offer?</h5>
               </button>
             </h2>
             <div id="coll2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                The Box Sizing property in CSS defines how developers should calculate the width and height of a box.
-
-                Content Box is when the default height and width get applied to the content of an element. The border and padding lie outside the box.
-
-                Padding Box is when the developer adds the dimensions to include the padding and content of the element. This adds a border outside the given box.
-
-                Border Box is when the box dimensions apply to the border, padding and content.
+                We offer a wide range of products, including tractors, harvesters, plows, seeders, irrigation systems, and various other modern farming tools. Each piece of equipment is manufactured with advanced technology to ensure durability and high performance in the field.
               </div>
             </div>
           </div>
@@ -47,18 +41,12 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll3" aria-expanded="false" aria-controls="coll3">
-                <h5> Define the ways in which you can hide an element using CSS.</h5>
+                <h5> What makes RongKrishi’s equipment different from other brands?</h5>
               </button>
             </h2>
             <div id="coll3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                There are three ways to hide elements with CSS.
-
-                display:none can hide the content so that it doesn’t get stored in the DOM.
-
-                visibility:hidden adds an element to the DOM and occupies space. However, the user cannot see it.
-
-                position:absolute makes the element appear outside the screen, not on the screen.
+                Our equipment is designed with cutting-edge technology, built to last, and rigorously tested for performance in various conditions. We focus on sustainability, ensuring that our tools not only improve productivity but also minimize environmental impact.
               </div>
             </div>
           </div>
@@ -68,12 +56,12 @@
             <h2 class="accordion-header">
               <!--   target="#coll4",  id="coll4"  -->
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll4" aria-expanded="false" aria-controls="coll4">
-                <h5> What does Callback mean in JavaScript?</h5>
+                <h5> How does RongKrishi support sustainability in agriculture?</h5>
               </button>
             </h2>
             <div id="coll4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Callback is a JavaScript function that developers send as a parameter or argument to other functions. You can call this function whenever the function it is provided to gets called.
+                We are committed to developing equipment that helps farmers reduce waste, improve resource efficiency, and promote sustainable farming practices. Our products are designed to support conservation, efficient water usage, and reduced soil erosion, contributing to a healthier ecosystem.
               </div>
             </div>
           </div>
@@ -83,27 +71,82 @@
             <h2 class="accordion-header">
               <!--   target="#coll5",  id="coll5"  -->
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll5" aria-expanded="false" aria-controls="coll5">
-                <h5> Differences between Undefined, Undeclared and Null in JavaScript.</h5>
+                <h5> Does RongKrishi provide after-sales support and services?</h5>
               </button>
             </h2>
             <div id="coll5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Undefined refers to a situation where a variable is declared but no value has been assigned to the variable yet.<br />
-                ex.
-                let a;
-                console.log(a); // Output: undefined
+                Yes, we pride ourselves on offering exceptional customer support. Our dedicated team provides after-sales services, including regular maintenance, repairs, and technical assistance to ensure our customers get the most out of their equipment.
+              </div>
+            </div>
+          </div>
 
-                <br />
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <!--   target="#coll4",  id="coll4"  -->
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll6" aria-expanded="false" aria-controls="coll6">
+                <h5> How do I get in touch with RongKrishi for product inquiries or support?</h5>
+              </button>
+            </h2>
+            <div id="coll6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                You can contact us via phone, email, or by visiting our website’s contact page. We also have regional offices where you can meet with our representatives, or you can reach out to our customer service team for prompt assistance.
+              </div>
+            </div>
+          </div>
 
-                Null refers to the assignment of value to a variable that isn’t meant to contain any value.<br />
-                ex. let b = null;
-                console.log(b); // Output: null
-                <br />
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <!--   target="#coll4",  id="coll4"  -->
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll7" aria-expanded="false" aria-controls="coll7">
+                <h5> What regions does RongKrishi serve?</h5>
+              </button>
+            </h2>
+            <div id="coll7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                RongKrishi serves both domestic and international markets, with a focus on regions that are heavily involved in agriculture. We are constantly expanding our reach to meet the needs of farmers worldwide.
+              </div>
+            </div>
+          </div>
 
-                Undeclared refers to variables that don’t exist in an application or program or haven’t been declared. <br />
-                ex.
-                console.log(c); // ReferenceError: c is not defined
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <!--   target="#coll4",  id="coll4"  -->
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll8" aria-expanded="false" aria-controls="coll8">
+                <h5> Can RongKrishi customize equipment to meet specific farming needs?</h5>
+              </button>
+            </h2>
+            <div id="coll8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes, we work closely with our clients to understand their unique requirements and offer tailored solutions. Customization is a key part of our commitment to helping farmers achieve the best results for their specific operations.
+              </div>
+            </div>
+          </div>
 
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <!--   target="#coll4",  id="coll4"  -->
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll9" aria-expanded="false" aria-controls="coll9">
+                <h5> How can farmers benefit from partnering with RongKrishi?</h5>
+              </button>
+            </h2>
+            <div id="coll9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Partnering with RongKrishi ensures access to reliable, high-quality equipment that improves operational efficiency. Our solutions help farmers increase productivity, reduce downtime, and adopt sustainable practices, ultimately contributing to long-term success.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <!--   target="#coll4",  id="coll4"  -->
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll10" aria-expanded="false" aria-controls="coll10">
+                <h5> What safety features are included in RongKrishi’s equipment?</h5>
+              </button>
+            </h2>
+            <div id="coll10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Safety is a top priority in the design and manufacturing of our equipment. Our products are equipped with advanced safety features, such as automatic shut-offs, ergonomic designs, and protective components to minimize risks during operation.
               </div>
             </div>
           </div>
