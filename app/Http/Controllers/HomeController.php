@@ -35,4 +35,19 @@ class HomeController extends Controller
     {
         return view('home.pages.contact');
     }
+
+    public function vegie()
+    {
+        return view('home.service_pages.vegie');
+    }
+
+    public function agri_pro()
+    {
+        return view('home.service_pages.agri_pro');
+    }
+
+    public function org_pro()
+    {
+        return view('home.service_pages.org_pro');
+    }
 }

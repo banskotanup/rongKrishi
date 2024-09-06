@@ -9,8 +9,8 @@
                            <h1 class="text-uppercase" style="font-size: 35px;">Rong Krishi Company Pvt. Ltd.</h1>
                            <h5 class="text-uppercase">fresh grains, dairy delights, and packaged goods</h5>
                            <div class="mt-5">
-                               <a class="main-btn primary-btn" href="#">Explore</a>
-                               <a class="main-btn secondary-btn ms-4" href="#">Watch Video</a>
+                               <a class="main-btn primary-btn" href="{{url('/product')}}">Explore</a>
+                               <a class="main-btn secondary-btn ms-4" href="https://youtu.be/85kTHwJ1Ju8?si=YVn6YSxhDGtRS1M_" target="_blank">Watch Video</a>
                            </div>
                        </div>
                        <div class="col-lg-5 order-lg-2 order-1">
@@ -31,9 +31,9 @@
                        </div>
                        <div class="col-lg-5 mb-4 mb-lg-0">
                            <h3>let’s <br>Introduce us</h3>
-                           <p>At RongKrishi, we are dedicated to driving innovation in the agricultural sector through cutting-edge manufacturing solutions. Our commitment to excellence ensures that farmers have access to high-quality, reliable equipment that enhances productivity and sustainability.</p>
-                           <p> Our state-of-the-art manufacturing facilities are equipped with advanced technology to produce durable and high-performance agricultural tools. We are dedicated to providing exceptional customer support, ensuring that our clients receive timely assistance and solutions tailored to their specific needs. By partnering with us, farmers can rely on a trusted leader in agricultural manufacturing to enhance their operations and drive success.</p>
-                           <a href="#" class="main-btn primary-btn mt-4">Learn More</a>
+                           <p style="color: #000000;">At RongKrishi, we are dedicated to driving innovation in the agricultural sector through cutting-edge manufacturing solutions. Our commitment to excellence ensures that farmers have access to high-quality, reliable equipment that enhances productivity and sustainability.</p>
+                           <p style="color: #000000;"> Our state-of-the-art manufacturing facilities are equipped with advanced technology to produce durable and high-performance agricultural tools. We are dedicated to providing exceptional customer support, ensuring that our clients receive timely assistance and solutions tailored to their specific needs. By partnering with us, farmers can rely on a trusted leader in agricultural manufacturing to enhance their operations and drive success.</p>
+                           <a href="{{url('/about')}}" class="main-btn primary-btn mt-4">Learn More</a>
                        </div>
                    </div>
                    <div class="row justify-content-center pt-5">

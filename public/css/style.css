@@ -237,7 +237,7 @@ button {
 
 .titlepage h2 {
     font-size: 50px;
-    color: #999998;
+    color: #000000;
     line-height: 50px;
     font-weight: bold;
     display: block;
@@ -569,7 +569,7 @@ ul.email li i {
 
 .about .titlepage p {
     padding-top: 20px;
-    color: #999998;
+    color: #000000;
 }
 
 .about .read_more {

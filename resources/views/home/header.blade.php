@@ -3,7 +3,7 @@
     <header class="header_wrapper">
       <nav class="navbar navbar-expand-lg fixed-top">
           <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{url('/')}}">
               <img src="images/logo.png" alt="logo" class="img-fluid" style="height: 50px; transform: scale(1.2);">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

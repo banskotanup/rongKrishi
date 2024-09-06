@@ -44,4 +44,7 @@ route::get('/product',[HomeController::class,'product']);
 route::get('/testimonial',[HomeController::class,'testimonial']);
 route::get('/faq',[HomeController::class,'faq']);
 route::get('/contact',[HomeController::class,'contact']);
+route::get('/vegie',[HomeController::class,'vegie']);
+route::get('/agri_pro',[HomeController::class,'agri_pro']);
+route::get('/org_pro',[HomeController::class,'org_pro']);
 
