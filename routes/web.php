@@ -2,6 +2,8 @@
 use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\newsController;
+use App\Http\Controllers\ContactController;
 
 
 Route::get('/', [HomeController::class, 'index']);
@@ -48,3 +50,11 @@ route::get('/vegie',[HomeController::class,'vegie']);
 route::get('/agri_pro',[HomeController::class,'agri_pro']);
 route::get('/org_pro',[HomeController::class,'org_pro']);
 
+
+
+//news routes
+Route::get('/news',[newsController::class,'index'])->name('index');
+
+
+//contact route 
+Route::post('/send',[ContactController::class,'send'])->name('send.email');
