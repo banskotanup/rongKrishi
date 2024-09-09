@@ -83,22 +83,3 @@
      <script src="/rongSales/js/bootstrap.js"></script>
      <!-- custom js -->
      <script src="/rongSales/js/custom.js"></script>
-
-     <!-- Javascript files-->
-     <script src="js/jquery.min.js"></script>
-     <script src="js/bootstrap.bundle.min.js"></script>
-     <script src="js/jquery-3.0.0.min.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/bootstrap-datepicker.min.js"></script>
-     <script src="js/custom.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-
-          <!-- jQery -->
-    <script src="/rongSales/js/jquery-3.4.1.min.js"></script>
-          <!-- popper js -->
-    <script src="/rongSales/js/popper.min.js"></script>
-          <!-- bootstrap js -->
-    <script src="/rongSales/js/bootstrap.js"></script>
-          <!-- custom js -->
-    <script src="/rongSales/js/custom.js"></script>

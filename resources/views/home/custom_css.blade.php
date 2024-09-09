@@ -196,7 +196,7 @@ p {
     margin:0 0.625rem;
 }
 
-.header_wrapper .nav-item .nav-link{
+.header_wrapper .nav-item .nav-link, .dropdown{
     font-family: var(--primary-font);
     font-size: 0.9375rem;
     font-weight: 500;
