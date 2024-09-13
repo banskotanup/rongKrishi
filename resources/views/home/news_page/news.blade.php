@@ -1,4 +1,4 @@
-<!doctype html>
+{{-- <!doctype html>
 <html lang="en">
 
 <head>
@@ -53,4 +53,4 @@
     </script>
 </body>
 
-</html>
+</html> --}}

@@ -1,4 +1,4 @@
-      <!-- news -->
+      {{-- <!-- news -->
       <div class="news">
         <div class="container">
            <div class="row">
@@ -46,4 +46,4 @@
            </div>
         </div>
      </div>
-     <!-- end news -->
+     <!-- end news --> --}}
